@@ -1,17 +1,17 @@
 export default {
 
 async BuildPDF () {
-await loadFont(); // Ensure the font is loaded before creating the PDF	
+//await loadFont(); // Ensure the font is loaded before creating the PDF	
 //const doc = jspdf.jsPDF()
 const doc = jspdf.jsPDF();
 const data2 = tabela_glowna.tableData;
 //const data = tabela_glowna.tableData;
 
-async function loadFont() {
-const response = await fetch('https://3d.e-zimon.pl/RobotoCondensed-Light-normal.js');
-const fontScript = await response.text();
-eval(fontScript); // Evaluate the script to register the font
-}
+//async function loadFont() {
+//const response = await fetch('https://3d.e-zimon.pl/RobotoCondensed-Light-normal.js');
+//const fontScript = await response.text();
+//eval(fontScript); // Evaluate the script to register the font
+//}
 
 
 // Custom headers
