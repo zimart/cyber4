@@ -64,7 +64,7 @@
         "key": "formData.textGeneration.input.data"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "getLanguageValuesAI",
     "pageId": "Screeny_inventory",
     "userSetOnLoad": true

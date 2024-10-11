@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 135,
+  "bottomRow": 55,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -121,9 +121,6 @@
       "key": "primaryColumns.opiszrabatami.computedValue"
     },
     {
-      "key": "primaryColumns.Produkt.label"
-    },
-    {
       "key": "primaryColumns.rabatogolny.computedValue"
     },
     {
@@ -131,9 +128,6 @@
     },
     {
       "key": "primaryColumns.rabatogolny.label"
-    },
-    {
-      "key": "primaryColumns.cenanetto.label"
     },
     {
       "key": "primaryColumns.kwotarabatogolny.label"
@@ -152,9 +146,6 @@
     },
     {
       "key": "primaryColumns.cenaporabacie.label"
-    },
-    {
-      "key": "primaryColumns.Ilosc.label"
     },
     {
       "key": "primaryColumns.rabatsystem.computedValue"
@@ -260,7 +251,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Ilość\")}}",
+      "label": "Ilość",
       "notation": "standard",
       "originalId": "Ilosc",
       "sticky": "",
@@ -294,7 +285,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Produkt\")}}",
+      "label": "Produkt",
       "notation": "standard",
       "originalId": "Produkt",
       "sticky": "",
@@ -396,7 +387,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Cena netto\")}}",
+      "label": "Cena netto",
       "notation": "standard",
       "originalId": "cenanetto",
       "sticky": "",
