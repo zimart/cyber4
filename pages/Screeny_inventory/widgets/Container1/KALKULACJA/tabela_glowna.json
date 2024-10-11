@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 75,
+  "bottomRow": 135,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -230,7 +230,7 @@
   "onPageChange": "{{\n            Select_inventory_main1.run();\n            Total_record_inventory_main1.run()\n          }}",
   "onSearchTextChanged": "{{\n            Select_inventory_main1.run();\n            Total_record_inventory_main1.run()\n          }}",
   "onSort": "{{\n            Select_inventory_main1.run();\n            Total_record_inventory_main1.run()\n          }}",
-  "originalBottomRow": 75,
+  "originalBottomRow": 135,
   "originalTopRow": 7,
   "parentColumnSpace": 20.21875,
   "parentId": "w811u4s83s",
