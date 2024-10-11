@@ -39,10 +39,6 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
-      "isDefault": false
-    },
-    {
       "id": "Klienci",
       "isDefault": true
     },
@@ -71,10 +67,6 @@
       "isDefault": false
     },
     {
-      "id": "testpdf",
-      "isDefault": false
-    },
-    {
       "id": "Screeny_tkanina_wybor",
       "isDefault": false
     },
@@ -95,23 +87,7 @@
       "isDefault": false
     },
     {
-      "id": "Screeny_inventory Copy",
-      "isDefault": false
-    },
-    {
-      "id": "Oferty2",
-      "isDefault": false
-    },
-    {
       "id": "rozne-js",
-      "isDefault": false
-    },
-    {
-      "id": "Lang",
-      "isDefault": false
-    },
-    {
-      "id": "Screeny_inventory2",
       "isDefault": false
     },
     {
