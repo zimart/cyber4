@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "bottomRow": 414,
-  "docUrl": "{{JSObject2.BuildPDF.data}}",
+  "bottomRow": 294,
+  "docUrl": "{{pdf_polski_z_rabatami.BuildPDF.data}}",
   "dynamicBindingPathList": [
     {
       "key": "docUrl"
@@ -12,24 +12,24 @@
   "isCanvas": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "wbuamp0sz9",
-  "leftColumn": 1,
-  "mobileBottomRow": 157,
-  "mobileLeftColumn": 3,
-  "mobileRightColumn": 27,
-  "mobileTopRow": 117,
+  "key": "3vy3q3elky",
+  "leftColumn": 0,
+  "mobileBottomRow": 294,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 254,
   "needsErrorInfo": false,
-  "originalBottomRow": 409,
-  "originalTopRow": 369,
-  "parentColumnSpace": 19.28125,
+  "originalBottomRow": 294,
+  "originalTopRow": 254,
+  "parentColumnSpace": 20.21875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "topRow": 374,
+  "topRow": 254,
   "type": "DOCUMENT_VIEWER_WIDGET",
   "version": 1,
-  "widgetId": "p8y26qpr9u",
-  "widgetName": "DocumentViewer2"
+  "widgetId": "saw56v7tz7",
+  "widgetName": "DocumentViewer1"
 }
