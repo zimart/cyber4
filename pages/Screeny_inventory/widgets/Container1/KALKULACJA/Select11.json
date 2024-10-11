@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 4,
   "boxShadow": "none",
-  "defaultOptionValue": "SCREENY",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -22,7 +22,11 @@
       "key": "isVisible"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -43,6 +47,7 @@
   "mobileRightColumn": 10,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
+  "onOptionChange": "",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 19.90625,

@@ -53,7 +53,7 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onTextChanged": "{{zmienkurs.run();\nzmienkurswofercie.run();\ntabela_inventory_id.run()}}",
+  "onTextChanged": "{{zmienkurs.run().then(() => {\n  zmienkurswofercie.run();\n  tabela_inventory_id.run();\n});}}",
   "parentColumnSpace": 20.25,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
