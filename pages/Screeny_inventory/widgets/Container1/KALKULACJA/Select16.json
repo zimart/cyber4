@@ -2,21 +2,27 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 5,
   "boxShadow": "none",
-  "defaultOptionValue": "23",
+  "defaultOptionValue": "polski",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
     }
   ],
   "dynamicTriggerPathList": [
@@ -28,23 +34,23 @@
   "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
-  "isVisible": true,
-  "key": "9faquaewuq",
+  "isVisible": false,
+  "key": "ibcwvtayax",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "VAT",
+  "labelText": "Język",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 37,
+  "leftColumn": 43,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 6,
-  "mobileLeftColumn": 18,
-  "mobileRightColumn": 38,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 44,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onOptionChange": "{{ustawrabatogolny.run().then(() => {\n  tabela_inventory_main_id.run();\n});}}",
+  "onOptionChange": "{{i18n.selectLanguage();}}",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 20.25,
@@ -53,12 +59,12 @@
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 43,
+  "rightColumn": 50,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"23%\",\n    \"code\": \"23\"\n  },\n  {\n    \"name\": \"8%\",\n    \"code\": \"8\"\n  },\n  {\n    \"name\": \"0%\",\n    \"code\": \"0\"\n  }\n]",
-  "topRow": 0,
+  "sourceData": "{{Constants.languageOptions.map(item => ({ name: item, code: item.toLowerCase()}))}}",
+  "topRow": 1,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "zz8nvmghgg",
-  "widgetName": "Vat"
+  "widgetId": "as5ir3qi4l",
+  "widgetName": "Select16"
 }

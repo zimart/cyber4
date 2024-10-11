@@ -4,11 +4,7 @@
   "borderWidth": "",
   "bottomRow": 4,
   "boxShadow": "none",
-  "dynamicBindingPathList": [
-    {
-      "key": "text"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
@@ -31,7 +27,7 @@
   "parentRowSpace": 10,
   "rightColumn": 9,
   "shouldScrollContents": true,
-  "text": "Klient:{{zapytaj_klient_inv.data[0].klient ||\"\"}}",
+  "text": "Klient:",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,
