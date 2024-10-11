@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultText": "{{kursinput.text}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": "{{Select6.selectedOptionLabel===\"PLN\"}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "fcag1fd5db",
+  "label": "{{i18n.translate(\"KURS EURO\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 44,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 30,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onTextChanged": "{{zmienkurs.run();\nzmienkurswofercie.run();\ntabela_inventory_id.run()}}",
+  "parentColumnSpace": 20.25,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 0,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "0fv2p4o55u",
+  "widgetName": "kurseuro"
+}
