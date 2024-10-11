@@ -14,9 +14,6 @@
       "key": "borderRadius"
     },
     {
-      "key": "label"
-    },
-    {
       "key": "defaultText"
     },
     {
@@ -41,7 +38,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "fcag1fd5db",
-  "label": "{{i18n.translate(\"KURS EURO\")}}",
+  "label": "KURS EURO",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

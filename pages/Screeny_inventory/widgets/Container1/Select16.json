@@ -14,9 +14,6 @@
     },
     {
       "key": "sourceData"
-    },
-    {
-      "key": "labelText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -41,7 +38,7 @@
   "key": "ibcwvtayax",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "{{i18n.translate(\"Język\")}}",
+  "labelText": "Język",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 57,

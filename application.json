@@ -25,14 +25,14 @@
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
-  "color": "#C2DAF0",
+  "color": "#F4FFDE",
   "embedSetting": {
     "height": "720px",
     "showNavigationBar": true,
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "flight",
+  "icon": "earth",
   "pages": [
     {
       "id": "Authentication",
