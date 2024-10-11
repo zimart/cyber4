@@ -125,9 +125,6 @@
       "key": "primaryColumns.ilosc.label"
     },
     {
-      "key": "primaryColumns.model.label"
-    },
-    {
       "key": "primaryColumns.rabat_sterowania.label"
     },
     {
@@ -135,9 +132,6 @@
     },
     {
       "key": "primaryColumns.razemnetto.label"
-    },
-    {
-      "key": "primaryColumns.vat_sterowania.label"
     },
     {
       "key": "primaryColumns.brutto_sterowania.label"
@@ -525,7 +519,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Model\")}}",
+      "label": "Model",
       "notation": "standard",
       "originalId": "model",
       "sticky": "",
@@ -715,7 +709,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": false,
-      "label": "{{i18n.translate(\"VAT %\")}}",
+      "label": "VAT",
       "notation": "standard",
       "originalId": "vat_sterowania",
       "sticky": "",

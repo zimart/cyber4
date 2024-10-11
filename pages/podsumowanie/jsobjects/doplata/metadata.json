@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67094ba3cb4eb2140bfd1b82_cf52f116-5616-4e7e-8b85-932e213527c5",
+  "id": "podsumowanie_doplata",
+  "unpublishedCollection": {
+    "name": "doplata",
+    "pageId": "podsumowanie",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

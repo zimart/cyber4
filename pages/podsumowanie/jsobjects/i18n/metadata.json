@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67094ba3cb4eb2140bfd1b82_019784a7-2270-4cce-a432-8a31bd7fabba",
+  "id": "podsumowanie_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "podsumowanie",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  polski: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

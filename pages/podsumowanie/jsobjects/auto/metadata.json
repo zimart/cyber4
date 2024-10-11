@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67094ba3cb4eb2140bfd1b82_fce38766-2988-4ba5-9bcc-0c40e7f7da94",
+  "id": "podsumowanie_auto",
+  "unpublishedCollection": {
+    "name": "auto",
+    "pageId": "podsumowanie",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

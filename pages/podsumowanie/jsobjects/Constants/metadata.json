@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67094ba3cb4eb2140bfd1b82_a8d0198e-92bc-4493-a46e-c54635a8ac6d",
+  "id": "podsumowanie_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "podsumowanie",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"Język\": \"Język\",\n  \"Ilość\": \"Ilość\",\n  \"DODAJ STEROWANIE\": \"DODAJ STEROWANIE\",\n  \"Zmiana języka\": \"Zmiana języka\",\n  \"Szerokość\": \"Szerokość\",\n  \"Produkt\": \"Produkt\",\n  \"Wysokość\": \"Wysokość\",\n  \"Cena bazowa systemu\": \"Cena bazowa systemu\",\n  \"Kolor\": \"Kolor\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Polski\", \"Deutch\", \"English\"]"
+      }
+    ]
+  }
+}

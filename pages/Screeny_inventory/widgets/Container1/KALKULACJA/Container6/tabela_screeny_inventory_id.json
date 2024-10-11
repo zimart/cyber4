@@ -266,12 +266,6 @@
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.szerokosc.label"
-    },
-    {
-      "key": "primaryColumns.ilosc.label"
-    },
-    {
       "key": "primaryColumns.customColumn2.boxShadow"
     },
     {
@@ -279,18 +273,6 @@
     },
     {
       "key": "primaryColumns.customColumn2.menuColor"
-    },
-    {
-      "key": "primaryColumns.cenanetto.label"
-    },
-    {
-      "key": "primaryColumns.concat.label"
-    },
-    {
-      "key": "primaryColumns.wysokosc.label"
-    },
-    {
-      "key": "primaryColumns.cena.label"
     },
     {
       "key": "primaryColumns.doplatatkanina.label"
@@ -369,12 +351,6 @@
     },
     {
       "key": "primaryColumns.customColumn1.alias"
-    },
-    {
-      "key": "primaryColumns.customColumn2.label"
-    },
-    {
-      "key": "primaryColumns.customColumn2.alias"
     },
     {
       "key": "primaryColumns.opisbezrabatow.computedValue"
@@ -492,7 +468,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "#f4f4f5",
       "columnType": "number",
-      "computedValue": "{{tabela_screeny_inventory_id.processedTableData.map((currentRow, currentIndex) => ( Number.parseFloat(currentRow.cena/kursinput.text).toFixed(2)))}}",
+      "computedValue": "{{tabela_screeny_inventory_id.processedTableData.map((currentRow, currentIndex) => ( Number.parseFloat(currentRow.cena).toFixed(2)))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -509,7 +485,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Cena bazowa systemu\")}}",
+      "label": "Cena bazowa systemu",
       "notation": "standard",
       "originalId": "cena",
       "sticky": "",
@@ -543,7 +519,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Produkt\")}}",
+      "label": "Produkt",
       "notation": "standard",
       "originalId": "cenanetto",
       "sticky": "",
@@ -577,7 +553,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": false,
-      "label": "{{i18n.translate(\"Opis\")}}",
+      "label": "Opis",
       "notation": "standard",
       "originalId": "concat",
       "sticky": "",
@@ -628,7 +604,7 @@
       "width": 150
     },
     "customColumn2": {
-      "alias": "{{i18n.translate(\"Szczegóły\")}}",
+      "alias": "Szczegóły",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tabela_screeny_inventory_id.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -656,7 +632,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Szczegóły\")}}",
+      "label": "Szczegóły",
       "labelColor": "#FFFFFF",
       "menuColor": "{{tabela_screeny_inventory_id.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "notation": "standard",
@@ -862,7 +838,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Ilość\")}}",
+      "label": "Ilość",
       "notation": "standard",
       "originalId": "ilosc",
       "sticky": "",
@@ -1789,7 +1765,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Szerokość\")}}",
+      "label": "Szerokość",
       "notation": "standard",
       "originalId": "szerokosc",
       "sticky": "",
@@ -1959,7 +1935,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "{{i18n.translate(\"Wysokość\")}}",
+      "label": "Wysokość",
       "notation": "standard",
       "originalId": "wysokosc",
       "sticky": "",
@@ -1974,7 +1950,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 47,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
+  "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{tabela_inventory_id.data}}",
   "textSize": "0.875rem",
